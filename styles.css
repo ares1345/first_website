@@ -7,17 +7,27 @@
     justify-content: center;
     padding: 10px;
     margin-top: 5px;
+    margin-bottom: auto;
 }
 
 .container {
+
     display: flex;
     width: auto;
     height: auto;
-    justify-content: space-evenly;
-    padding: 10px;
-    border: 4px black;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 10px 10px;
+    margin-top: 2px;
+    margin-bottom: 30px;
 }
 
- {
+.box {
+
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+    flex: 1 1 auto;
+
 
 }
